@@ -61,11 +61,6 @@ public class TestRecursion {
     }
 
     @Test
-    public void testChangePi_EVENLENGTHONLY() {
-       
-    }
-
-    @Test
     public void testChangePi() {
         assertEquals("3.14",  RecursionChallenge.changePi("pi"));
         assertEquals("x3.14x",  RecursionChallenge.changePi("xpix"));
