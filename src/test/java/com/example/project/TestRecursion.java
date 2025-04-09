@@ -90,5 +90,6 @@ public class TestRecursion {
         assertTrue(RecursionChallenge.isPalindrome("madam"));
         assertFalse(RecursionChallenge.isPalindrome("hello"));
         assertFalse(RecursionChallenge.isPalindrome("ab"));
+       assertFalse(RecursionChallenge.isPalindrome("tforestt")); //first and last are the same but not a palindrome
     }
 }
